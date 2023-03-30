@@ -3,6 +3,7 @@ import { Modal, CloseButton } from 'react-bootstrap'
 
 
 const Add = ({add, setAdd , list , setList}) => {
+  
       const [title , setTitle] = React.useState("")
       const [description , setDescription] = React.useState("")
       const [img , setImg] = React.useState("")

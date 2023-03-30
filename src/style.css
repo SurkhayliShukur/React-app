@@ -1,0 +1,17 @@
+.parent{
+    display:grid;
+    grid-template-columns: repeat(1fr,1fr,1fr,1fr);
+    gap: 20px;
+}
+
+@media(max-width:768px) {
+    .parent{
+        grid-template-columns: repeat(1fr,1fr);
+    }
+}
+
+@media(max-width:480px) {
+    .parent{
+        grid-template-columns: repeat(1fr);
+    }
+}
